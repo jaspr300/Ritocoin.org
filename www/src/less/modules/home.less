@@ -1,0 +1,231 @@
+@import '../variables.less';
+
+.home-page {
+
+    header {
+        background-color: @lighterBlue;
+        overflow: hidden;
+        position: relative;
+
+        .page-title {
+            float: left;
+
+            .rito-img {
+                width: 100px;
+                float: left;
+                padding: 0 20px;
+            }
+    
+            h1 {
+                font-size: 40px;
+                font-weight: 300;
+                float: left;
+                color: @white;
+            }
+
+        }
+
+        .more-info {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+
+            a {
+                cursor: pointer;
+                padding: 0 20px;
+
+                svg {
+                    width:30px;
+                    fill: @white;
+                }
+
+            }
+
+        }
+
+    }
+
+    .site-info {
+        width: 60%;
+        margin: 60px auto;
+
+        p {
+            font-size: 20px;
+            line-height: 1.5em;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 20px;
+            border-radius: 4px;
+            border: none;
+            background-color: @darkerBlue;
+            margin: 20px auto;
+            display: block;
+            
+            a {
+                text-decoration: none;
+                color: @white;
+            }
+        }
+
+    }
+
+    .exchanges {
+        overflow: hidden;
+
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .exchange {
+            width: 33.33%;
+            float: left;
+            list-style: none;
+
+            a {
+                border-radius: 4px;
+                display: block;
+                margin: 0 10%;
+                display: block;
+                text-decoration: none;
+                color: @fontColor;
+                background-color: @lighterBlue;
+
+                img {
+                    width: 33%;
+                    margin: 0 auto;
+                    display: block;
+                    padding: 20px 0;
+                }
+
+                .ex-name {
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 4px 0 20px;
+                    color: @white;
+                }
+    
+            }
+
+        }
+
+    }
+
+    .pools {
+        margin: 5% 0 0;
+        padding: 5% 5% 10%;
+        overflow: hidden;
+        background-color: @lightestBlue;
+
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        li {
+            width: 16.66%;
+            float: left;
+            list-style: none;
+
+            a {
+                border-radius: 4px;
+                display: block;
+                margin: 3% 5%;
+                display: block;
+                text-decoration: none;
+                color: @fontColor;
+                background-color: @white;
+                padding: 10px 0;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .social {
+        background-color: @lighterBlue;
+        margin: 0 0 5%;
+        padding: 3% 5% 5%;
+
+        li {
+            margin-bottom: 20px;
+
+            a {
+                font-size: 30px;
+                text-decoration: none;
+                color: @white;
+    
+                .social-item {
+                    text-align: center;
+                }
+    
+                svg {
+                    width: 60px;
+                    fill: @white;
+                    display: block;
+                    margin: 0 auto;
+                }
+    
+            }
+
+        }
+
+    }
+
+    .about {
+        margin: 60px 0;
+        overflow: hidden;
+
+        .center {
+            margin: 0 auto 2%;
+            width: 40%;
+            color: @ritoGreen;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .left {
+            margin: 0 80% 2% 20%;
+            float: left;
+            width: 50%;
+        }
+
+        .right {
+            margin: 0 20% 2% 80%;
+            float: right;
+            width: 50%;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5em;
+        }
+
+    }
+
+    footer {
+        background-color: @darkerBlue;
+
+        p {
+            font-size: 14px;
+            line-height: 1.5em;
+            margin: 0;
+            color: @white;
+            padding: 2%;
+
+            a {
+                color: @lightestBlue;
+                text-decoration: none;
+            }
+
+        }
+
+    }
+    
+}
