@@ -16,13 +16,13 @@ export default class App extends Component {
                         <h1>Ritocoin</h1>
                     </div>
                     <div className="more-info">
-                        <a href="https://explorer.ritocoin.org/">
+                        <a href="https://explorer.ritocoin.org/" target="_explorer">
                             <BlockExplore />
                         </a>
-                        <a href="https://discord.gg/5c9wHmy">
+                        <a href="https://discord.gg/5c9wHmy" target="_discord">
                             <Discord />
                         </a>
-                        <a href="https://github.com/RitoProject">
+                        <a href="https://github.com/RitoProject" target="_github">
                             <GitHub />
                         </a>
                     </div>
