@@ -64,48 +64,23 @@ export default class App extends Component {
                 </section>
                 <section className="pools">
                     <h2>Mining Pools</h2>
-                    <li>
-                        <a href="https://cryptopool.cash/">Cryptopool</a>
-                    </li>
-                    <li>
-                        <a href="https://pickaxe.pro/">Pickaxe</a>
-                    </li>
-                    <li>
-                        <a href="https://focus-pool.com/">Focus Pool</a>
-                    </li>
-                    <li>
-                        <a href="https://icemining.ca/">Icemining</a>
-                    </li>
-                    <li>
-                        <a href="https://blockify.xyz/">Blockify</a>
-                    </li>
-                    <li>
-                        <a href="https://arcpool.com/">Arcpool</a>
-                    </li>
-                    <li>
-                        <a href="https://pool.rig.tokyo/">Pool Rig</a>
-                    </li>
-                    <li>
-                        <a href="https://marspool.org/">Marspool</a>
-                    </li>
-                    <li>
-                        <a href="https://xd.dapool.me/">Dapool</a>
-                    </li>
-                    <li>
-                        <a href="https://www.gos.cx/">GOS</a>
-                    </li>
-                    <li>
-                        <a href="https://hashfaster.com/">Hashfaster</a>
-                    </li>
-                    <li>
-                        <a href="http://coolmine.top/ ">Coolmine</a>
-                    </li>
-                    <li>
-                        <a href="https://www.lyra2z.com/rito/">Lyra2z</a>
-                    </li>
-                    <li>
-                        <a href="https://coinfoundry.org/pool/rito">Coin Foundry</a>
-                    </li>
+                      <li><a href="https://icemining.ca" target="_pool">icemining</a></li>
+                      <li><a href="https://xd.dapool.me" target="_pool">dapool</a></li>
+                      <li><a href="https://phi-phi-pool.com" target="_pool">phi-phi-pool</a></li>
+                      <li><a href="https://pickaxe.pro" target="_pool">pickaxe.pro</a></li>
+                      <li><a href="https://blockify.xyz" target="_pool">blockify.xyz</a></li>
+                      <li><a href="https://coolmine.top" target="_pool">coolmine.top</a></li>
+                      <li><a href="https://marspool.org" target="_pool">marspool</a></li>
+                      <li><a href="https://blockchainmeup.org" target="_pool">blockchainmeup</a></li>
+                      <li><a href="https://antares-pool.club" target="_pool">antares-pool</a></li>
+                      <li><a href="https://hashfaster.com" target="_pool">hashfaster</a></li>
+                      <li><a href="https://nosuchpool.cloud" target="_pool">nosuchpool.cloud</a></li>
+                      <li><a href="https://focus-pool.com" target="_pool">focus-pool</a></li>
+                      <li><a href="https://pool.rig.tokyo" target="_pool">rig.tokyo</a></li>
+                      <li><a href="https://arcpool.com" target="_pool">arcpool</a></li>
+                      <li><a href="https://minermore.com" target="_pool">minermore</a></li>
+                      <li><a href="https://gos.cx" target="_pool">gos.cx</a></li>
+
                 </section>
                 <section className="social">
                     <li>
