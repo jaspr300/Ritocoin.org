@@ -37,9 +37,8 @@ export default class App extends Component {
                     <p>
                         Whitepaper is being finished up and will be published to this website later this week. Maybe soon we will put together a polished website as well.
                     </p>
-                    <button>
-                        <a href="https://github.com/RitoProject/Ritocoin/">Get Your Wallet</a>
-                    </button>
+                    <button><a href="https://github.com/RitoProject/Ritocoin/">Download Wallet at Github</a></button>
+                    <button><a href="https://paper.ritocoin.org/">Paper Wallet</a></button>
                 </section>
                 <section className="exchanges">
                     <h2>Buy Ritocoin</h2>
