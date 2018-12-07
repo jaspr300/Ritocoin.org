@@ -63,6 +63,7 @@ export default class App extends Component {
                 </section>
                 <section className="pools">
                     <h2>Mining Pools</h2>
+<li><a href="https://cryptopool.cash/">cryptopool.cash</a></li>
 <li><a href="https://miningpatriot.com" target="_pool">miningpatriot</a></li>
 <li><a href="https://icemining.ca" target="_pool">icemining</a></li>
 <li><a href="https://xd.dapool.me" target="_pool">dapool</a></li>
@@ -80,7 +81,6 @@ export default class App extends Component {
 <li><a href="https://arcpool.com" target="_pool">arcpool</a></li>
 <li><a href="https://minermore.com" target="_pool">minermore</a></li>
 <li><a href="https://gos.cx" target="_pool">gos.cx</a></li>
-<li><a href="https://cryptopool.cash/">cryptopool.cash</a></li>
 
 
                 </section>
