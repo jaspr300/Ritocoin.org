@@ -1,0 +1,89 @@
+@import '../variables.less';
+.bounties-page {
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 300;
+        color: @fontColor;
+    }
+
+    .bounty-info {
+
+        a{
+            color: @lighterBlue;
+            text-decoration: none;
+        }
+
+    }
+
+    .bounty-section {
+        border-top: 1px solid @ritoGray;
+        padding: 20px 0;
+
+        .bounty-payout-info {
+            margin-bottom: 20px;
+        }
+
+        .browser-title {
+            width: 100%;
+            color: @ritoGreenLight;
+            overflow: hidden;
+
+            .title {
+                padding: 5px 2%;
+                float: left;
+                width: 15.1%;
+            }
+
+        }
+
+        .mobile-title {
+            display: none;
+            @media only screen and (max-width: 1100px) {
+                display: block;
+                float: left;
+                margin-right: 2%;
+                width: 150px;
+                
+                .title {
+                    padding: 5px 2%;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            .browser-title {
+                display: none;
+            }
+        }
+
+        li {
+            list-style: none;
+            overflow: hidden;
+            font-size: 14px;
+            margin-bottom: 14px;
+
+            .item {
+                float: left;
+                border-left: 1px solid @ritoGray;
+                padding: 5px 2%;
+                width: 15%;
+                color: @ritoGray;
+                overflow: scroll;
+                cursor: ew-resize;
+                white-space: nowrap;
+
+                @media only screen and (max-width: 1100px) {
+                    float: none;
+                    width: 96%;
+                    cursor: default;
+                }
+            }
+
+        }
+
+    }
+
+}

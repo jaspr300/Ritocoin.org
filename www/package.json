@@ -11,8 +11,11 @@
     "watch": "parcel watch ./src/index.jsx -d tmp"
   },
   "dependencies": {
+    "history": "^4.7.2",
+    "prop-types": "^15.6.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "less": "^3.0.1",
