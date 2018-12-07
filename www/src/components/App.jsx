@@ -16,13 +16,13 @@ export default class App extends Component {
                         <h1>Ritocoin</h1>
                     </div>
                     <div className="more-info">
-                        <a href="https://explorer.ritocoin.org/">
+                        <a href="https://explorer.ritocoin.org/" target="_explorer">
                             <BlockExplore />
                         </a>
-                        <a href="https://discord.gg/5c9wHmy">
+                        <a href="https://discord.gg/5c9wHmy" target="_discord">
                             <Discord />
                         </a>
-                        <a href="https://github.com/RitoProject">
+                        <a href="https://github.com/RitoProject" target="_github">
                             <GitHub />
                         </a>
                     </div>
@@ -37,9 +37,8 @@ export default class App extends Component {
                     <p>
                         Whitepaper is being finished up and will be published to this website later this week. Maybe soon we will put together a polished website as well.
                     </p>
-                    <button>
-                        <a href="https://github.com/RitoProject/Ritocoin/">Get Your Wallet</a>
-                    </button>
+                    <button><a href="https://github.com/RitoProject/Ritocoin/">Download Wallet at Github</a></button>
+                    <button><a href="https://paper.ritocoin.org/">Paper Wallet</a></button>
                 </section>
                 <section className="exchanges">
                     <h2>Buy Ritocoin</h2>
@@ -64,48 +63,23 @@ export default class App extends Component {
                 </section>
                 <section className="pools">
                     <h2>Mining Pools</h2>
-                    <li>
-                        <a href="https://cryptopool.cash/">Cryptopool</a>
-                    </li>
-                    <li>
-                        <a href="https://pickaxe.pro/">Pickaxe</a>
-                    </li>
-                    <li>
-                        <a href="https://focus-pool.com/">Focus Pool</a>
-                    </li>
-                    <li>
-                        <a href="https://icemining.ca/">Icemining</a>
-                    </li>
-                    <li>
-                        <a href="https://blockify.xyz/">Blockify</a>
-                    </li>
-                    <li>
-                        <a href="https://arcpool.com/">Arcpool</a>
-                    </li>
-                    <li>
-                        <a href="https://pool.rig.tokyo/">Pool Rig</a>
-                    </li>
-                    <li>
-                        <a href="https://marspool.org/">Marspool</a>
-                    </li>
-                    <li>
-                        <a href="https://xd.dapool.me/">Dapool</a>
-                    </li>
-                    <li>
-                        <a href="https://www.gos.cx/">GOS</a>
-                    </li>
-                    <li>
-                        <a href="https://hashfaster.com/">Hashfaster</a>
-                    </li>
-                    <li>
-                        <a href="http://coolmine.top/ ">Coolmine</a>
-                    </li>
-                    <li>
-                        <a href="https://www.lyra2z.com/rito/">Lyra2z</a>
-                    </li>
-                    <li>
-                        <a href="https://coinfoundry.org/pool/rito">Coin Foundry</a>
-                    </li>
+                      <li><a href="https://icemining.ca" target="_pool">icemining</a></li>
+                      <li><a href="https://xd.dapool.me" target="_pool">dapool</a></li>
+                      <li><a href="https://phi-phi-pool.com" target="_pool">phi-phi-pool</a></li>
+                      <li><a href="https://pickaxe.pro" target="_pool">pickaxe.pro</a></li>
+                      <li><a href="https://blockify.xyz" target="_pool">blockify.xyz</a></li>
+                      <li><a href="https://coolmine.top" target="_pool">coolmine.top</a></li>
+                      <li><a href="https://marspool.org" target="_pool">marspool</a></li>
+                      <li><a href="https://blockchainmeup.org" target="_pool">blockchainmeup</a></li>
+                      <li><a href="https://antares-pool.club" target="_pool">antares-pool</a></li>
+                      <li><a href="https://hashfaster.com" target="_pool">hashfaster</a></li>
+                      <li><a href="https://nosuchpool.cloud" target="_pool">nosuchpool.cloud</a></li>
+                      <li><a href="https://focus-pool.com" target="_pool">focus-pool</a></li>
+                      <li><a href="https://pool.rig.tokyo" target="_pool">rig.tokyo</a></li>
+                      <li><a href="https://arcpool.com" target="_pool">arcpool</a></li>
+                      <li><a href="https://minermore.com" target="_pool">minermore</a></li>
+                      <li><a href="https://gos.cx" target="_pool">gos.cx</a></li>
+
                 </section>
                 <section className="social">
                     <li>
@@ -132,7 +106,7 @@ export default class App extends Component {
                         We are on the brink of entering a post-GPU era of cryptocurrency mining, and those of us who own farms of rigs wish to continue to see our hardware continue to be put to use. This desire is, in fact, the primary reason many of us joined the Ravencoin ranks in the first place. The X16R algorithm on which Ravencoin was founded was designed specifically for ASIC resistance.[1] While we applaud Ravencoin's commitment to resist ASIC domination of their chain, we are sorry that they have adopted the decision to allow FPGAs to mine X16R. Until the unlikely day comes that FPGAs are commonplace in homes across the world, Ritocoin is committed to ensuring that GPUs will always have a fair and even chance to mine the blocks in this chain.
                     </p>
                     <p className="left">
-                        Additionally, centralized hash renting services such as NiceHash have a similarly chilling effect on miners. At the time of this writing, about 33% of the network hash for X16R is coming through NiceHash. For the sake of the security of the network and for the other reasons we mentioned above, we desire for our coin’s network to remain inaccessible to services like NiceHash. We do recognize that these kinds of services can easily add new algorithms to their offerings, but we remain committed to staying ahead of that cat and mouse game. Periodic hard forks to new algorithms are something we are willing to do in order to keep our chain safe and minable by our GPUs.
+                        Additionally, centralized hash renting services such as NiceHash have a similarly chilling effect on miners. At the time of this writing, about 33% of the network hash for X16R is coming through NiceHash. For the sake of the security of the network and for the other reasons we mentioned above, we desire for our coin's network to remain inaccessible to services like NiceHash. We do recognize that these kinds of services can easily add new algorithms to their offerings, but we remain committed to staying ahead of that cat and mouse game. Periodic hard forks to new algorithms are something we are willing to do in order to keep our chain safe and minable by our GPUs.
                     </p>
                     <p className="right">
                         To that end, we have elected to launch the coin with the newly created X21s algorithm, which was developed by the the author of this whitepaper. It is a chain of 21 different algorithms. The first 16 handled exactly like X16S, followed by 5 additional hashing algorithms. The inclusion of Lyra2Z allows  it to mine at cooler temperatures and the algorithm overall does not have high power requirements. 
