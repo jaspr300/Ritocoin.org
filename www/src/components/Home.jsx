@@ -11,7 +11,7 @@ import Footer from './layout/Footer';
 export default class Home extends PureComponent {
     render() {
         return(
-            <div>
+            <div className="all">
                 <Header />
                 <div className="home-page">
                     <SiteInfo />

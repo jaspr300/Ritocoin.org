@@ -7,7 +7,7 @@ import Footer from './layout/Footer';
 export default class Bounties extends PureComponent {
     render() {
         return(
-            <div>
+            <div className="all">
                 <Header />
                 <div className="bounties-page">
                     <h1>Bounty Payouts</h1>
