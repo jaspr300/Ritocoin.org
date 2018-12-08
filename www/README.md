@@ -12,6 +12,20 @@ Running `yarn build` will build the files used for `index.html`. After this comm
 # Build
 `yarn build`
 
+## Header and Footer
+For header and footer development, you can find the components in `src/components/layout`
+
+## Adding pages
+New pages can be added in `src/components/App.jsx`:
+
+```
+import NewPage from './NewPage`;
+
+<Route exact path="/" component={NewPage} />
+```
+
+Main part of page is kept in the same directory as App, but any sections of the page are in folders in that directory. Example would be `src/components/Home.jsx` and its sections in `src/components/home/`
+
 ## Exchange list
 exchanges can be added to the JS object in `src/utils/exchangeList`. This will add the data to the UI.
 
