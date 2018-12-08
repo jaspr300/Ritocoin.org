@@ -29,7 +29,7 @@ export default class Home extends PureComponent {
                 </div>
                 <div className="page-title">
                     <img className="rito-img" src={rito} alt="Rito" />
-                    <h1>Ritocoinasdfasdf</h1>
+                    <h1>Ritocoin</h1>
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/bounties">Bounties</Link></li>
