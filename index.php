@@ -190,7 +190,7 @@
 
 <?php
 $pools['antares']['img'] = 'antares.png';
-$pools['blockify']['img'] = 'blockify.png';
+$pools['blockify']['img'] = 'blockifyxyz.png';
 $pools['cos']['img'] = 'cos.png';
 $pools['dapool']['img'] = 'dapool.png';
 $pools['focus-pool']['img'] = 'focus-pool.png';
