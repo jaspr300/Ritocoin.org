@@ -8,12 +8,6 @@ const exchangeList = [
         title: 'SafeTrade',
     },
     {
-        url: 'https://beta.moondex.io/market/MOONDEX.RITO_MOONDEX.BTC',
-        img: moonDexImg,
-        alt: 'MoonDex Exchange',
-        title: 'MoonDex',
-    },
-    {
         url: 'https://trade.mct.plus/',
         img: 'https://trade.mct.plus/uploads/mct_logo_128x128.png',
         alt: 'MCT Exchange',

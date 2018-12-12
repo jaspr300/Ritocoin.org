@@ -1,5 +1,10 @@
 const pools = [
     {
+        url: 'https://cryptopool.cash/',
+        target: '_pool',
+        title: 'cryptopool',
+    },
+    {
         url: 'https://icemining.ca',
         target: '_pool',
         title: 'icemining',
