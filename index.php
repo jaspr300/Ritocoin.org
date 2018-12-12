@@ -139,11 +139,8 @@
       <h3 id="faqs" class="subhead">Frequently Asked Questions</h3>
       <div class="row faqs">
         <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
+          <strong>How do I mine Ritocoin?</strong><br>
+Use any miner that supports the X21S algorithm. <a href="https://github.com/RitoProject/ccminer/">ccminer (open source)</a> or the faster but proprietary <a href="https://github.com/trexminer/T-Rex/releases">t-rex</a>
         </p>
         <p class="col-md-4 col-sm-6">
           <strong>Lorem ipsum dolor sit amet?</strong><br>
