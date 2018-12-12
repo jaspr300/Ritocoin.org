@@ -188,7 +188,7 @@ Use any miner that supports the X21S algorithm. <a href="https://github.com/Rito
 <?php
 $pools['antares']['img'] = 'antares.png';
 $pools['blockify']['img'] = 'blockifyxyz.png';
-$pools['cos']['img'] = 'cos.png';
+$pools['gos']['img'] = 'gos.png';
 $pools['dapool']['img'] = 'dapool.png';
 $pools['focus-pool']['img'] = 'focus-pool.png';
 $pools['icemining']['img'] = 'icemining.png';
@@ -201,7 +201,7 @@ $pools['pickaxe']['img'] = 'pickaxe.png';
 
 $pools['antares']['link'] = 'https://antares-pool.club';
 $pools['blockify']['link'] = 'https://blockify.xyz';
-$pools['cos']['link'] = 'https://gos.cx';
+$pools['gos']['link'] = 'https://gos.cx';
 $pools['dapool']['link'] ='https://xd.dapool.me';
 $pools['focus-pool']['link'] ='https://focus-pool.com';
 $pools['icemining']['link'] ='https://icemining.ca';
