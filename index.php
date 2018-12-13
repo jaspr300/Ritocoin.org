@@ -47,11 +47,9 @@
       <h3 id="about" class="subhead">What is Ritocoin</h3>
       <div class="row faqs">
         <p class="col-md-6 col-sm-6">
-<!--
 <strong style="font-size:1.4em;">Whitepaper</strong><br>
-<a href="/ritocoin_manifesto.pdf" style="font-size:1.2em;">Read our whitepaper [PDF]</a>
+<a href="/docs/whitepaper.pdf" style="font-size:1.2em;">Read our whitepaper [PDF]</a>
 <br><br>
--->
           <strong>Ritocoin</strong><br>
 Ritocoin launches with the spirit of community, cypherpunk culture and hacker ethics. Ritocoin is a fork of the Ravencoin codebase, which is an experimental blockchain and platform optimized for transferring assets, such as tokens, from one holder to another. The launch of Ritocoin offers several improvements to Ravencoin. First, a change in the proof-of-work mining algorithm, second, a commitment to keeping mining accessible to casual hobbyists, third, a roadmap for masternode functionality to be added, and finally, an emphasis on the community-driven development of user friendly features and add-on utilities. The culture of Ritocoin will be of rapid software development and frequent releases of experimental features.
 <br><br>
