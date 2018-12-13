@@ -23,10 +23,10 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
             <!-- <li><a href="#docs" class="nav-link">Whitepaper</a></li> -->
+            <li><a href="#about" class="nav-link">About</a></li>
             <li><a href="#exchanges" class="nav-link">Exchanges</a></li>
             <li><a href="#connect" class="nav-link">Connect</a></li>
             <li><a href="#downloads" class="nav-link">Downloads</a></li>
-            <!-- <li><a href="#faqs" class="nav-link">FAQs</a></li> -->
             <li><a href="#pools" class="nav-link">Pools</a></li>
             <!-- <li><a href="#development">Development</a></li> -->
           </ul>
@@ -43,20 +43,53 @@
       </div> <!-- /.container -->
     </div> <!-- /.jumbotron -->
 
-<!--
     <div class="container">
-      <h3 id="docs" class="subhead">Whitepaper</h3>
-      <div class="row cool_circles">
-        <div class="col-md-12 col-sm-12 cool_circle">
-          <div class="cool_circle-ball">
-            <span class="glyphicon glyphicon-road"></span>
-          </div>
-          <h3><a href="">Click here to read the Ritocoin whitepaper</a></h3>
-        </div>
-
-      </div>
-    </div>
+      <h3 id="about" class="subhead">What is Ritocoin</h3>
+      <div class="row faqs">
+        <p class="col-md-6 col-sm-6">
+<!--
+<strong style="font-size:1.4em;">Whitepaper</strong><br>
+<a href="/ritocoin_manifesto.pdf" style="font-size:1.2em;">Read our whitepaper [PDF]</a>
+<br><br>
 -->
+          <strong>Ritocoin</strong><br>
+Ritocoin is a fork of the Ravencoin codebase, the latter of which is an experimental blockchain and platform optimized for transferring assets, such as tokens, from one holder to another. Ritocoin was launched with a change in the proof-of-work mining algorithm, a commitment to keeping mining accessible to casual hobbyists, a roadmap for masternode functionality to be added, and an emphasis on the community-driven development of user friendly features and add-on utilities. The culture of Ritocoin will be of rapid software development and frequent releases of experimental features. Ritocoin launches with the spirit of community, cypherpunk culture and hacker ethics.
+<br><br>
+Ritocoin is intended to be a bazaar of ideas and will prioritize security, user control, privacy, censorship resistance, and fair distribution of hashrate to all members of the cryptocurrency community. It is free to use and develop in any jurisdiction, while allowing simple additional features for users based on need.
+<br><br>
+<strong>Masternodes</strong><BR>
+Masternodes give miners fun and interesting goals to mine toward, as they work to build a holding sufficient to stake their own masternode. Many miners enjoy working together to pool their mined coins to then create cooperatively managed masternodes. Sub-communities gather around these shared masternodes and this enhances the experience for everyone involved. Ritocoin recognizes and appreciates the interesting features that other coins have added to their blockchain, and we intend to explore the feasibility of incorporating these features into our blockchain. Instant transactions, in particular, is an innovation that masternodes can bring to a network. Privacy features are a second key feature we will investigate. Masternodes also give new and interesting ways for hobbyists to become more intimately involved with a coin project. Finally, permitting voting on important community matters is an attractive governance model that masternodes can help solve.
+<br><br>
+Through early 2019, we will conduct open conversations about this topic with the Ritocoin community of miners and holders, and we will collaboratively design and implement a masternode system for Ritocoin. Masternodes will be available to anyone who owns enough RITO. The only way to obtain a masternode will be to mine RITO or obtain the coins from other RITO holders.
+<br><br>
+        </p>
+        <p class="col-md-6 col-sm-6">
+          <strong>Specifications</strong><br>
+Proof-of-Work Algorithm: <a href="https://github.com/RitoProject/x21s_hash" target="_x21s">X21S</a><BR>
+Block Time: 60 seconds<BR>
+POW Block Reward: 5,000 RITO<BR>
+Community fund: 1% first year<BR>
+Difficulty Retargeting: DGW-180<BR>
+Maximum Supply: ~21 billion<BR>
+Pre-mine: None<BR>
+Masternodes: Planned.<BR>
+Asset layer: Activates at height 50,000<BR>
+<BR>
+          <strong>GPU Mineability</strong><br>
+Ritocoin is anti-ASIC, anti-FPGA and anti-NiceHash, and is committed to remaining a coin that is always available for mining by cryptocurrency hobbyists. We designed our X21S algorithm to be mined by GPUs only, and we will further develop our hashing algorithm as advancements are made by the opposing forces.
+<br><br>
+<strong>The X21S Algorithm</strong><br>
+The cornerstone feature of our coin at launch is the new X21S algorithm, inspired by X22i and X16S. The hashing algorithm begins with 16 algorithms shuffled and hashed in the manner prescribed by X16S, followed by 5 additional hashing algorithms: haval256, tiger, lyra2, gost512, and sha256. The inclusion of lyra2 brings numerous advantages, making parallelization of the algorithm practically impossible, with each step relying on the previous step having already been computed. It is a “friendly” algorithm that makes GPUs produce much less heat and uses less electricity during mining.
+<br><br>
+<strong>Community</strong><br>
+We believe that the best ideas are discovered when many voices are heard. We desire our community to be a vocal group of differing opinions where the best ideas can float to the top and be considered. We must remain open and receptive to differing ideas, and be prepared to change even fundamental concepts in this project in response to those ideas and proposals.
+<br><br>
+The developer fund is a key component of fostering a development-oriented community. By setting aside coins from the block reward during the first year, we can offer bounties to give to community members for work they do. This has already borne fruit with the development of the GPL-licensed <a href="https://github.com/RitoProject/ccminer/" target="_ccminer">ccminer for X21S</a>, as well as improved compilation code, algorithm work, explorer code, an android wallet, and website development. We feel that the developer fund will continue to be a valuable tool to motivate the members of the community to invest their time and energy into this project during its early life.
+
+        </p>
+      </div> 
+    </div> 
+
 
     <div class="container">
       <h3 id="exchanges" class="subhead">Exchanges</h3>
@@ -132,55 +165,6 @@
         </p>
       </div> 
     </div> 
-
-<!--
-
-    <div class="container">
-      <h3 id="faqs" class="subhead">Frequently Asked Questions</h3>
-      <div class="row faqs">
-        <p class="col-md-4 col-sm-6">
-          <strong>How do I mine Ritocoin?</strong><br>
-Use any miner that supports the X21S algorithm. <a href="https://github.com/RitoProject/ccminer/">ccminer (open source)</a> or the faster but proprietary <a href="https://github.com/trexminer/T-Rex/releases">t-rex</a>
-        </p>
-        <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <p class="col-md-4 col-sm-6">
-          <strong>Lorem ipsum dolor sit amet?</strong><br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna.  Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-      </div> 
-    </div> 
-
--->
 
     <div class="container">
       <h3 id="pools" class="subhead">Mining Pools</h3>
