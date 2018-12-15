@@ -139,7 +139,14 @@ The developer fund is a key component of fostering a development-oriented commun
           </div>
           <h3><a href="https://bitcointalk.org/index.php?topic=5076284.0">[ANN]</a></h3>
         </div> 
-
+      </div> 
+      <div class="row cool_circles">
+        <div class="col-md-3 col-sm-3 cool_circle">
+          <div class="cool_circle-ball">
+            <a href="https://twitter.com/ritocoin"><img src="/img/connect/twitter.png" style="max-width:100px;"></a>
+          </div>
+          <h3><a href="https://twitter.com/ritocoin">Twitter</a></h3>
+        </div> 
       </div> 
     </div> 
 
