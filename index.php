@@ -128,25 +128,34 @@ The developer fund is a key component of fostering a development-oriented commun
 
         <div class="col-md-3 col-sm-3 cool_circle">
           <div class="cool_circle-ball">
-            <a href="https://explorer.ritocoin.org/"><span class="glyphicon glyphicon-link"></span></a>
-          </div>
-          <h3><a href="https://explorer.ritocoin.org/">Explorer</a></h3>
-        </div> 
-
-        <div class="col-md-3 col-sm-3 cool_circle">
-          <div class="cool_circle-ball">
             <a href="https://bitcointalk.org/index.php?topic=5076284.0"><span class="glyphicon glyphicon-bullhorn"></span></a>
           </div>
           <h3><a href="https://bitcointalk.org/index.php?topic=5076284.0">[ANN]</a></h3>
         </div> 
+        <div class="row cool_circles">
+          <div class="col-md-3 col-sm-3 cool_circle">
+            <div class="cool_circle-ball">
+              <a href="https://twitter.com/ritocoin"><img src="/img/connect/twitter.png" style="max-width:100px;"></a>
+            </div>
+            <h3><a href="https://twitter.com/ritocoin">Twitter</a></h3>
+          </div> 
+        </div> 
       </div> 
       <div class="row cool_circles">
-        <div class="col-md-3 col-sm-3 cool_circle">
+
+        <div class="col-md-6 col-sm-6 cool_circle">
           <div class="cool_circle-ball">
-            <a href="https://twitter.com/ritocoin"><img src="/img/connect/twitter.png" style="max-width:100px;"></a>
+            <a href="https://explorer.ritocoin.org/"><span class="glyphicon glyphicon-link"></span></a>
           </div>
-          <h3><a href="https://twitter.com/ritocoin">Twitter</a></h3>
+          <h3><a href="https://explorer.ritocoin.org/">Explorer</a></h3>
         </div> 
+        <div class="col-md-6 col-sm-6 cool_circle">
+          <div class="cool_circle-ball">
+            <a href="https://rito.safc.cc/"><span class="glyphicon glyphicon-link"></span></a>
+          </div>
+          <h3><a href="https://rito.safc.cc/">Explorer2</a></h3>
+        </div> 
+
       </div> 
     </div> 
 
