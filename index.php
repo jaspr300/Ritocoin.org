@@ -145,9 +145,9 @@ The developer fund is a key component of fostering a development-oriented commun
 
         <div class="col-md-4 col-sm-4 cool_circle">
           <div class="cool_circle-ball">
-            <a href="https://t.me/RitoCoin"><img src="/img/connect/telegram.png" style="max-width:100px;"></a>
+            <a href="https://t.me/joinchat/I4nwmBYrHGggXsBbQf-yAw"><img src="/img/connect/telegram.png" style="max-width:100px;"></a>
           </div>
-          <h3><a href="https://t.me/RitoCoin">Telegram</a></h3>
+          <h3><a href="https://t.me/joinchat/I4nwmBYrHGggXsBbQf-yAw">Telegram</a></h3>
         </div> 
 
         <div class="col-md-4 col-sm-4 cool_circle">
