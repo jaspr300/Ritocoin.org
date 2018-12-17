@@ -167,12 +167,17 @@ The developer fund is a key component of fostering a development-oriented commun
     </div> 
 
     <div class="container">
-      <h3 id="downloads" class="subhead">Downloads</h3>
+      <h3 id="downloads" class="subhead">Downloads / Wallets</h3>
       <div class="row faqs">
         <p class="col-md-12 col-sm-12">
           <strong>Desktop Wallet</strong><br>
             <span class="glyphicon glyphicon-briefcase"></span>
             <B><a href="https://github.com/RitoProject/Ritocoin/releases">Ritocoin Desktop Wallet for Windows, Mac or Linux</a></B>
+        </p>
+        <p class="col-md-12 col-sm-12">
+          <strong>Web Wallet</strong><br>
+            <span class="glyphicon glyphicon-cloud"></span>
+            <B><a href="https://wallet.ritocoin.org/">Ritocoin Web Wallet</a></B>
         </p>
         <p class="col-md-12 col-sm-12">
           <strong>Paper Wallet</strong><br>
