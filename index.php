@@ -152,9 +152,9 @@ The developer fund is a key component of fostering a development-oriented commun
 
         <div class="col-md-4 col-sm-4 cool_circle">
           <div class="cool_circle-ball">
-            <a href="https://explorer.ritocoin.org/"><span class="glyphicon glyphicon-link"></span></a>
+            <a href="https://insight.ritocoin.org/"><span class="glyphicon glyphicon-link"></span></a>
           </div>
-          <h3><a href="https://explorer.ritocoin.org/">Explorer</a></h3>
+          <h3><a href="https://insight.ritocoin.org/">Explorer</a></h3>
         </div> 
         <div class="col-md-4 col-sm-4 cool_circle">
           <div class="cool_circle-ball">
@@ -183,6 +183,11 @@ The developer fund is a key component of fostering a development-oriented commun
           <strong>Paper Wallet</strong><br>
             <span class="glyphicon glyphicon-file"></span>
             <B><a href="https://paper.ritocoin.org/">Ritocoin Paper Wallet Generator</a></B>
+        </p>
+        <p class="col-md-12 col-sm-12">
+          <strong>Ritocore and Insight</strong><br>
+            <span class="glyphicon glyphicon-file"></span>
+            <B><a href="https://github.com/traysi/ritocore/">Ritocore Github</a></B>
         </p>
         <p class="col-md-12 col-sm-12">
           <strong>Android Wallet</strong><br>
