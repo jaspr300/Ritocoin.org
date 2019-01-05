@@ -213,6 +213,7 @@ $pools['miningpatriot']['img'] = 'miningpatriot.png';
 $pools['nosuchpool']['img'] = 'nosuchpool.png';
 $pools['phi-phi-pool']['img'] = 'phi-phi-pool.png';
 $pools['pickaxe']['img'] = 'pickaxe.png';
+$pools['hashdom']['img'] = 'hashdom.png';
 
 $pools['antares']['link'] = 'https://antares-pool.club';
 $pools['blockify']['link'] = 'https://blockify.xyz';
@@ -226,6 +227,7 @@ $pools['miningpatriot']['link'] ='https://miningpatriot.com';
 $pools['nosuchpool']['link'] ='https://nosuchpool.cloud';
 $pools['phi-phi-pool']['link'] ='https://phi-phi-pool.com';
 $pools['pickaxe']['link'] ='https://pickaxe.pro';
+$pools['hashdom']['link'] ='https://hashdom.org/site/info?algo=x21s&coin=RITO';
 ?>
 
       <div class="row cool_circles">
