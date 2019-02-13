@@ -33,6 +33,10 @@ Here is the same long term view expressed logarithmically.
 <BR><BR>
 <img src="chart3.png" class="img-responsive" style="border: 2px solid black;"><BR><BR>
 <BR><BR>
+<h2>Why make this change?<h2>
+This overhaul of our reward system was done after careful evaluation of the consequences previous coin projects have experienced who have high block rewards. This overhaul reduces the overall number of circulating coins generated in the future, reducing inflation and discouraging "dumpers" who are only mining this coin to auto-exchange their mined coins into BTC. Our previous high block reward will not meet our needs to evolve this coin project into the future. The cost to issue assets will not be changed.
+
+
 </center>
     </div> 
 
