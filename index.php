@@ -65,7 +65,7 @@ Through early 2019, we will be conducting open conversations about this topic wi
           <strong>Specifications</strong><br>
 Proof-of-Work Algorithm: <a href="https://github.com/RitoProject/x21s_hash" target="_x21s">X21S</a><BR>
 Block Time: 60 seconds<BR>
-POW Block Reward: 5,000 RITO<BR>
+POW Block Reward: <a href="/docs/rewards.php">Smooth curve down</a><BR>
 Community fund: 1% first year<BR>
 Difficulty Retargeting: DGW-180<BR>
 Maximum Supply: ~21 billion<BR>
