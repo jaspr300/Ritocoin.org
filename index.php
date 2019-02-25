@@ -66,9 +66,14 @@ Through early 2019, we will be conducting open conversations about this topic wi
 Proof-of-Work Algorithm: <a href="https://github.com/RitoProject/x21s_hash" target="_x21s">X21S</a><BR>
 Block Time: 60 seconds<BR>
 POW Block Reward: <a href="/docs/rewards.php">Smooth curve down</a><BR>
+&nbsp; &nbsp; Supply 6 months:  993,521,892 RITO<BR>
+&nbsp; &nbsp; Supply 1 year:    1,227,448,858 RITO<BR>
+&nbsp; &nbsp; Supply 5 years:   1,762,210,058 RITO<BR>
+&nbsp; &nbsp; Supply 10 years:  1,820,404,381 RITO<BR>
+&nbsp; &nbsp; Supply 50 years:  2,030,907,256 RITO<BR>
+&nbsp; &nbsp; Supply 100 years: 2,293,707,246 RITO<BR>
 Community fund: 1% first year<BR>
 Difficulty Retargeting: DGW-180<BR>
-Maximum Supply: ~21 billion<BR>
 Pre-mine: None<BR>
 Masternodes: Planned.<BR>
 Asset layer: Activates at height 50,000<BR>
