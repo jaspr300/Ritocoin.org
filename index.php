@@ -206,30 +206,23 @@ The developer fund is a key component of fostering a development-oriented commun
       <h3 id="pools" class="subhead">Mining Pools</h3>
 
 <?php
-$pools['antares']['img'] = 'antares.png';
 $pools['blockify']['img'] = 'blockifyxyz.png';
 $pools['gos']['img'] = 'gos.png';
-$pools['dapool']['img'] = 'dapool.png';
 $pools['focus-pool']['img'] = 'focus-pool.png';
 $pools['icemining']['img'] = 'icemining.png';
-$pools['marspool']['img'] = 'marspool.png';
 $pools['minermore']['img'] = 'minermore.png';
-$pools['miningpatriot']['img'] = 'miningpatriot.png';
 $pools['nosuchpool']['img'] = 'nosuchpool.png';
 $pools['phi-phi-pool']['img'] = 'phi-phi-pool.png';
 $pools['pickaxe']['img'] = 'pickaxe.png';
 $pools['hashdom']['img'] = 'hashdom.png';
 $pools['fairmine']['img'] = 'fairmine.png';
 
-$pools['antares']['link'] = 'https://antares-pool.club';
+
 $pools['blockify']['link'] = 'https://blockify.xyz';
 $pools['gos']['link'] = 'https://gos.cx';
-$pools['dapool']['link'] ='https://xd.dapool.me';
 $pools['focus-pool']['link'] ='https://focus-pool.com';
 $pools['icemining']['link'] ='https://icemining.ca';
-$pools['marspool']['link'] ='https://marspool.org';
 $pools['minermore']['link'] ='https://minermore.com/';
-$pools['miningpatriot']['link'] ='https://miningpatriot.com';
 $pools['nosuchpool']['link'] ='https://nosuchpool.cloud';
 $pools['phi-phi-pool']['link'] ='https://phi-phi-pool.com';
 $pools['pickaxe']['link'] ='https://pickaxe.pro';
