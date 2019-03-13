@@ -12,6 +12,7 @@
     <div id="top" class="jumbotron">
       <div class="container">
     <h1>Ritocoin Android Wallet Screenshots</h1>
+<h2><a href="https://play.google.com/store/apps/details?id=org.ritocoin.aw">Download at Google Play</a></h2>
       </div> <!-- /.container -->
     </div> <!-- /.jumbotron -->
 
