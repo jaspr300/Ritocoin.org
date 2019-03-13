@@ -197,7 +197,8 @@ The developer fund is a key component of fostering a development-oriented commun
         <p class="col-md-12 col-sm-12">
           <strong>Android Wallet</strong><br>
             <span class="glyphicon glyphicon-phone"></span>
-            <B>Coming very soon!</B>
+            <B><a href="https://play.google.com/store/apps/details?id=org.ritocoin.aw">Google Play</a></B>
+            (<a href="/img/android/">Screenshots</a>)
         </p>
       </div> 
     </div> 
