@@ -17,19 +17,19 @@
 
     <div class="container">
 <center>
-<img src="Screenshot_20190313-112422.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112446.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112457.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112658.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112714.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112729.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112737.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-112933.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-113046.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-113141.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-114614.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-114635.png" class="img-responsive"><P>
-<img src="Screenshot_20190313-114715.png" class="img-responsive"><P>
+<img src="Screenshot_20190313-112422.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112446.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112457.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112658.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112714.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112729.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112737.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-112933.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-113046.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-113141.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-114614.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-114635.png" class="img-responsive" style="max-width:400px;"><P>
+<img src="Screenshot_20190313-114715.png" class="img-responsive" style="max-width:400px;"><P>
 
 </center>
     </div> 
