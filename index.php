@@ -205,56 +205,8 @@ The developer fund is a key component of fostering a development-oriented commun
 
     <div class="container">
       <h3 id="pools" class="subhead">Mining Pools</h3>
-
-<?php
-$pools['blockify']['img'] = 'blockifyxyz.png';
-$pools['gos']['img'] = 'gos.png';
-$pools['focus-pool']['img'] = 'focus-pool.png';
-$pools['icemining']['img'] = 'icemining.png';
-$pools['minermore']['img'] = 'minermore.png';
-$pools['nosuchpool']['img'] = 'nosuchpool.png';
-$pools['phi-phi-pool']['img'] = 'phi-phi-pool.png';
-$pools['pickaxe']['img'] = 'pickaxe.png';
-$pools['hashdom']['img'] = 'hashdom.png';
-$pools['fairmine']['img'] = 'fairmine.png';
-
-
-$pools['blockify']['link'] = 'https://blockify.xyz';
-$pools['gos']['link'] = 'https://gos.cx';
-$pools['focus-pool']['link'] ='https://focus-pool.com';
-$pools['icemining']['link'] ='https://icemining.ca';
-$pools['minermore']['link'] ='https://minermore.com/';
-$pools['nosuchpool']['link'] ='https://nosuchpool.cloud';
-$pools['phi-phi-pool']['link'] ='https://phi-phi-pool.com';
-$pools['pickaxe']['link'] ='https://pickaxe.pro';
-$pools['hashdom']['link'] ='https://hashdom.org/site/info?algo=x21s&coin=RITO';
-$pools['fairmine']['link'] ='https://fairmine.pro/';
-?>
-
-      <div class="row cool_circles">
-<?php
-$x = 0;
-if(is_array($pools)) {
-  while (list($pool,$v)=each($pools)) {
-    if ($x % 3 == 0) {
-      print '</div><div class="row cool_circles">';
-    }
-    $img = $pools[$pool]['img'];
-    $link = $pools[$pool]['link'];
-    print '
-    <div class="col-md-4 col-sm-4 cool_circle">
-      <div class="cool_circle-ball">
-        <a href="'.$link.'"><img src="/img/pools/'.$img.'" style="max-width:100px;"></a>
-      </div>
-      <h3><a href="'.$link.'">'.$pool.'</a></h3>
-    </div>
-    ';
-    $x++;
-  }
-}
-?>
-
-      </div> <!-- /.row -->
+      <center><a href="https://poolexplorer.com/coin/6146" style="font-size:2em;font-weight:bold;">Click here for a list of active pools</a></center>
+      <P>
     </div> <!-- /.container -->
 
     <footer>
