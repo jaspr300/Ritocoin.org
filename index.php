@@ -76,7 +76,8 @@ Community fund: 1% first year<BR>
 Difficulty Retargeting: DGW-180<BR>
 Pre-mine: None<BR>
 Masternodes: Planned.<BR>
-Asset layer: Activates at height 50,000<BR>
+Asset layer: Activates at height 50,000 <BR>
+Asset layer Update: Activated!<BR>
 <BR>
           <strong>GPU Mineability</strong><br>
 Ritocoin is anti-ASIC, anti-FPGA and anti-NiceHash, and is committed to remaining a coin that is always available for mining by cryptocurrency hobbyists. We designed our X21S algorithm to be mined by GPUs only, and we will further develop our hashing algorithm as advancements are made by the opposing forces.
@@ -166,6 +167,12 @@ The developer fund is a key component of fostering a development-oriented commun
             <a href="https://rito.safc.cc/"><span class="glyphicon glyphicon-link"></span></a>
           </div>
           <h3><a href="https://rito.safc.cc/">Explorer2</a></h3>
+        </div>
+        <div class="col-md-4 col-sm-4 cool_circle">
+          <div class="cool_circle-ball">
+            <a href="https://ritocoin.asset-explorer.net/"><span class="glyphicon glyphicon-link"></span></a>
+          </div>
+          <h3><a href="https://ritocoin.asset-explorer.net/">Asset Explorer</a></h3>
         </div> 
 
       </div> 
@@ -212,7 +219,7 @@ The developer fund is a key component of fostering a development-oriented commun
     <footer>
       <div class="container clearfix">
         <p class="pull-left">
-          Provided by the Ritocoin Project
+          Provided by the Ritocoin Project 2019 
         </p>
         <p class="pull-right">
           <a href="https://ritocoin.org/">Ritocoin.org</a>
